@@ -1,0 +1,129 @@
+*/body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    vertical-align: top;
+    padding: 15px;
+}
+headlines news  {
+    margin:2px;
+    text-align: justify;
+    color: black;
+}
+
+h3, h4 {
+    margin: 0;
+    color:black;
+}
+
+p {
+    margin: 5px 0;
+    color: #050404;
+    text-align: left;
+}
+
+img {
+    margin: 10px 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #0e0909;
+    margin: 20px 0;
+}
+
+ol {
+    padding-left: 20px;
+    border-top:black;
+    border-bottom: black;
+    border-right: black;
+    border-left: black;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Additional styles to match AAJ news appearance */
+h1, h2 {
+    margin: 0;
+    color: black;
+    text-decoration: solid;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+table th img {
+    display: block;
+    margin: 0 auto;
+}
+
+th:nth-child(2) {
+    text-align: center;
+}
+
+th:nth-child(3) {
+    text-align: right;
+}
+
+p img {
+    float: right;
+    margin-left: 10px;
+}
+
+ol li {
+    list-style: decimal inside;
+    margin: 0 0 10px 0;
+}
+
+ol li::marker {
+    color: #04030e;
+}
+
+@media (max-width: 768px) {
+    table, th {
+        display: block;
+        width: 100%;
+    }
+    
+    th {
+        padding: 10px 0;
+    }
+    
+    th img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    h4 {
+        text-align: center;
+    }
+    
+ 
+}
